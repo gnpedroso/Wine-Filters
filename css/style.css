@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(131, 113, 80);
+}
+
+.logo{
+    width: 30vh;
+    margin-left: 40vh;
+}
+
+.tabs_wrap ul{
+    margin-left: 300px;
+}
+
+.btn{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 150px;
+    border: solid .5px white;
+    color:white;
+    text-align: center;
+}
+
+.active{
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.md-form{
+    margin-left: 60vh;
+    padding: 50px;
+    width: 40%;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#containerWines{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#containerWines li{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 15%;
+    
+}
